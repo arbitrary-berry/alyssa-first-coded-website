@@ -1,3 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const Rainbow = new Image(500, 250);
+Rainbow.src = 'Rainbow Coded in CSS.jpg';
+document.body.appendChild(Rainbow);
+//creates Rainbow image in html
+
